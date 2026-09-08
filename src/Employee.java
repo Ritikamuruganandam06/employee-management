@@ -7,15 +7,24 @@ public class Employee {
         this.name = name;
         this.salary = salary;
     }
-    public void calculateSalary() {
-        System.out.println("salary: " + salary);
+    // public void calculateSalary() {
+    //     System.out.println("salary: " + salary);
+    // }
+    // public void generateReport() {
+    //     System.out.println("employee id: "+id);
+    //     System.out.println("employee name: "+name);
+    //     System.out.println("employee salary: "+salary);
+    // }
+    // public void saveToDatabase() {
+    //     System.out.println("employee saved to database");
+    // }
+    public int getId() {
+        return id;
     }
-    public void generateReport() {
-        System.out.println("employee id: "+id);
-        System.out.println("employee name: "+name);
-        System.out.println("employee salary: "+salary);
+    public String getName() {
+        return name;
     }
-    public void saveToDatabase() {
-        System.out.println("employee saved to database");
+    public double getSalary() {
+        return salary;
     }
 }
