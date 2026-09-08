@@ -1,0 +1,5 @@
+public class MongoDatabase implements EmployeeRepo{
+    public void save(Employee employee) {
+        System.out.println("employee saved to mongodb");
+    }
+}
