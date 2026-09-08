@@ -27,4 +27,8 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
+   
+    public void work() {
+        System.out.println(name+" is working");
+    }
 }
